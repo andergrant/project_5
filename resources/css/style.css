@@ -1,6 +1,13 @@
 #name_1, #name_2{
     display: inline-block;
-    color: blue;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#name_1{
+    color: rgba(51, 51, 51, 0.74);
+}
+#name_2{
+    color:rgba(148, 148, 148, 0.74)
 }
 header{
     display: flex;
