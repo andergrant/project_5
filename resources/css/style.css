@@ -3,13 +3,14 @@ html{
     align-items: center;
     justify-content: space-between;
     font-family: "Mukta", sans-serif;
+    color: rgba(51, 51, 51, 0.822);
 }
 
 ul li{
     list-style: none;
     display: inline-block;
     justify-content: center;
-    margin: 16px;
+    padding: 16px;
     font-size: 24px;
 }
 #logo{
@@ -21,7 +22,6 @@ ul li{
     font-size: 32px;   
 }
 #name_1{
-    color: rgba(51, 51, 51, 0.74);
     font-weight: bolder;
 }
 #name_2{
@@ -36,6 +36,43 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 24px;
+    padding: 0px 24px;
     width: 100%;
+}
+.rectangle_1{
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.5);
+    display:inline-flex;
+    align-items: center;
+    padding: 32px 0px;
+}
+#banner{
+    width: 60%;
+    padding: 0px 24px;
+}
+#info{
+  padding-left: 24px ;
+  width: 25%;
+}
+video{
+    width: 60%;
+}
+h1{
+    width: fit-content;
+    font-size: 54px;
+    line-height: 24px;
+    font-weight:bolder;
+}
+h3{
+    font-size: 26px;
+}
+#button{
+    background-color:rgba(51, 51, 51, 0.822);
+    color: white;
+    font-size: larger;
+    width: 100%;
+}
+#button_text{
+    text-align: center;
+    padding: 8px;
 }
