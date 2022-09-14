@@ -1,15 +1,40 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mukta", sans-serif;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    margin: 16px;
+    font-size: 24px;
+}
+#logo{
+    height: 50px;
+}
 #name_1, #name_2{
     display: inline-block;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-size: 32px;
 }
 #name_1{
     color: rgba(51, 51, 51, 0.74);
+    font-weight: bolder;
 }
 #name_2{
-    color:rgba(148, 148, 148, 0.74)
+    color:rgba(148, 148, 148, 0.74);
 }
-header{
+.logo_name{
     display: flex;
     align-items: center;
+}
+header{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 24px;
 }
