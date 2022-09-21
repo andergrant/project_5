@@ -46,15 +46,16 @@ header{
     background-color: rgba(169, 169, 169, 0.5);
     display:inline-flex;
     align-items: center;
-    padding: 32px 0px;
+    padding: 32px 24px;
 }
 #banner{
     width: 60%;
-    padding: 0px 24px;
+    padding-right: 24px;
 }
 #info{
-  padding-left: 24px ;
-  width: 25%;
+    display: inline;
+  padding: 0px 24px ;
+  width: 30%;
 }
 video{
     width: 60%;
@@ -64,6 +65,7 @@ h1{
     font-size: 54px;
     line-height: 110%;
     font-weight:bolder;
+    margin: 32px 0px;
 }
 h3{
     font-size: 26px;
@@ -74,6 +76,8 @@ h3{
     color: white;
     font-size: larger;
     width: 100%;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 #button_text{
     text-align: center;
@@ -81,5 +85,66 @@ h3{
     font-size: 20px;
 }
 .rectangle_2{
-    background-color: gainsboro;
+    background-color: rgb(240, 239, 239);
+    padding: 32px 24px;
+    display:inline-flex;
+    font-size: 18px;
+}
+.left_part{
+    width: 60%;
+    
+}
+#left_image{
+    width:100%;  
+    margin-right: 24px;
+}
+
+.right_part{
+    width:40%;
+}
+.foto_and_text{
+    display:inline-flex;
+    margin-left: 24px;
+}
+.foto{
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+.text{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 0px 16px;
+}
+.text h3{
+    margin: 0%;
+}
+.text p{
+    margin: 8px 0px;
+}
+.text a{
+    text-decoration: none;
+    color: rgba(0, 140, 255, 0.959); 
+}
+h2{
+    font-size: 48px;
+    font-weight:bolder;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.left_part span{
+    font-size: 15px;
+}
+.rectangle_3{
+    background-color: rgba(169, 169, 169, 0.5);
+    padding: 32px 24px;
+}
+.fotos_container{
+    display:table;
+    
 }
